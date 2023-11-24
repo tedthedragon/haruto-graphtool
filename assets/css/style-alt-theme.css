@@ -1,6 +1,35 @@
-
 /* Primary color theme */
 :root {
+    --accent-color: hsl(214, 95%, 61%);
+    --accent-color-contrast: hsl(214, 84%, 53%);
+
+    --background-color: hsl(210, 50%, 4%);
+    --background-color-contrast: hsl(210, 40%, 4%);
+    --background-color-contrast-more: hsl(231, 15%, 67%);
+    --background-color-graph: hsl(210, 40%, 2%);
+
+    --background-color-inputs: hsl(204, 45%, 2%);
+
+    --font-color-primary: hsl(214, 95%, 61%);
+    --font-color-secondary: hsl(180, 100%, 0%);
+    --font-color-inputs: hsl(214, 95%, 61%);
+
+    --font-primary: 'Open Sans', sans-serif;
+    --font-secondary: monospace;
+
+    --scrollbar-color: 125,175,0;
+    --scrollbar-accent: 255,255,255;
+
+    --header-color: hsl(210, 50%, 4%);
+    --header-links-color: hsl(233, 100%, 78%);
+    --header-menu-icon-color: hsl(0, 0%, 100%);
+    
+    --logo-filter: none;
+    --svg-filter: none;
+}
+
+/* This is called dark mode but it's actually a light mode cause fuck defaulting to light. - [Ted] */
+body.dark-mode {
     --accent-color: hsl(0, 0%, 0%);
     --accent-color-contrast: hsl(0, 0%, 55%);
 
@@ -21,31 +50,10 @@
     --scrollbar-color: 255,255,255;
     --scrollbar-accent: 0,0,0;
         
-    --logo-filter: invert(1.0);
+    --header-color: hsl(212, 30%, 8%);
+    --header-links-color: hsl(0, 0%, 100%);
+    --header-menu-icon-color: hsl(0, 0%, 100%);
+    
+    --logo-filter: none;
     --svg-filter: none;
-}
-
-body.dark-mode {
-    --accent-color: hsl(0, 0%, 100%);
-    --accent-color-contrast: hsl(0, 0%, 50%);
-
-    --background-color: hsl(0, 0%, 6%);
-    --background-color-contrast: hsl(0, 0%, 15%);
-    --background-color-contrast-more: hsl(0, 0%, 30%);
-    --background-color-graph: hsl(0, 0%, 8%);
-
-    --background-color-inputs: hsl(0, 0%, 15%);
-
-    --font-color-primary: hsl(0, 0%, 80%);
-    --font-color-secondary: hsl(0, 0%, 0%);
-    --font-color-inputs: hsl(0, 0%, 60%);
-
-    --font-primary: 'Open Sans', sans-serif;
-    --font-secondary: monospace;
-
-    --scrollbar-color: 0,0,0;
-    --scrollbar-accent: 255,255,255;
-
-    --logo-filter: invert(1.0);
-    --svg-filter: invert(1.0);
 }

@@ -2367,7 +2367,7 @@ if ( darkModeButton ) {
         miscTools = document.querySelector("div.miscTools");
         
     themeButton.setAttribute("id", "theme");
-    themeButton.textContent = "dark mode";
+    themeButton.textContent = "light mode";
     miscTools.append(themeButton);
     
     themeChooser();

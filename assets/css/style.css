@@ -1,16 +1,15 @@
 noscript { position:absolute; left:0; right:0; font-size:6em; text-align:center; }
 html { background:#e5e5e5; }
 .graphtool { font-size:initial; color:black; }
-.graphBackground { fill:white; }
+.graphBackground { fill:"black"; }
 .main { min-height:100vh; display:flex; flex-direction:column; }
 .graphBox { margin:0.25em auto 0.75em; }
 #fr-graph { width:calc((100vh - 13.5em) * 800 / 346); max-width:100%; }
 svg text { cursor:default; user-select:none; }
 .controls { flex:auto; display:flex; flex-flow:row-reverse wrap; }
 .manage,.select { flex:1; margin:0 0.8em; font-size:large; }
-.select { border-bottom:2px solid #1c2126; }
-.select,.selector-panel { display:flex; flex-direction:column; }
-.select>div,.selector-panel>div { flex:auto; display:flex; position:relative; }
+.select { display:flex; flex-direction:column; border-bottom:2px solid #1c2126; }
+.select>div { flex:auto; display:flex; position:relative; }
 .tools {
     display:flex; flex-wrap:wrap; justify-content:space-around;
     align-items:center; padding:0.2em 0; margin:-0.5em 1vw 0;
