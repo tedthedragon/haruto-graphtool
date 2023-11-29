@@ -15,7 +15,7 @@ const init_phones = ["KEMAR DF for KB-500x Target", "'Philphone' 300ohm Mod"], /
       site_url = '',                                // URL of your graph "homepage"
       share_url = true,                             // If true, enables shareable URLs
       watermark_text = "ted the praimortis",        // Optional. Watermark appears behind graphs
-      watermark_image_url = "assets/images/mortis.svg",// Optional. If image file is in same directory as config, can be just the filename
+      watermark_image_url = "assets/images/mortis.png",// Optional. If image file is in same directory as config, can be just the filename
       preference_bounds = "assets/images/bounds.png",  // Optional. If png file is present, display bounds image
       page_title = "Ted's Headphone Squig Hoard",   // Optional. Appended to the page title if share URLs are enabled
       page_description = "Buy 300ohm Philphone, fool.",
@@ -87,7 +87,7 @@ function watermark(svg) {
         .attr("opacity",0.2)
         .append("text")
         .attrs({x:765, y:314, "font-size":10, "text-anchor":"end", "class":"site_name"})
-        .text("graphtool.ted the praimortis.com");
+        .text("graphtool.tedthepraimortis.com");
 }
 
 
