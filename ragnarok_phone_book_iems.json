@@ -1,0 +1,166 @@
+
+[
+    {
+        "name":   "7Hz Salnotes",
+        "phones": [
+            {"name":"Zero",
+             "file":["Salzero"],
+             "suffix":[""]},
+            {"name":"Dioko",
+             "file":["Dioko"],
+             "suffix":[""]}
+        ]
+    },
+    {
+        "name":   "7th Acoustics",
+        "phones": [
+            {"name":"Supernova",
+             "file":["Supernova"],
+             "suffix":[""]}
+        ]
+    },
+    {
+        "name":   "Audiosense",
+        "phones": [
+            {"name":"AQ4",
+             "file":["Audiosense-AQ4-Hadoe"],
+             "suffix":["(Hadoe)"]}
+        ]
+    },
+    {
+        "name":   "BLON",
+        "phones": [
+            {"name":"x HBB Z300",
+             "file":["Blon-X-HBB-Z300-Hadoe"],
+             "suffix":["(Hadoe)"]}
+        ]
+    },
+    {
+        "name":   "Delta Air Lines",
+        "phones": [
+            {"name":"Studio Complementary IEMs",
+             "file":["Studio Complementary"],
+             "suffix":[""]},
+            {"name":"Complementary IEMs",
+             "file":["Delta-Complementary-IEMs-Ted"],
+             "suffix":["(Ted)"]}
+        ]
+    },
+    {
+        "name":   "DUNU",
+        "phones": [
+            {"name":"Titan S",
+             "file":["Dunu-Titan-S-Ted"],
+             "suffix":["(Ted)"]}
+        ]
+    },
+    {
+        "name":   "Etymotic",
+        "phones": [
+            {"name":"ER3SE",
+             "file":["Etymotic-ER3SE"],
+             "suffix":["(Ted)"]}
+        ]
+    },
+    {
+        "name":   "Kiwi Ears",
+        "phones": [
+            {"name":"Cadenza",
+             "file":["Cadenza"],
+             "suffix":[""]}
+        ]
+    },
+    {
+        "name":   "KZ",
+        "phones": [
+            {"name":"ZSN Pro X",
+             "file":["KZ-ZSNProX Ted"],
+             "suffix":["(Ted)"]}
+        ]
+    },
+    {
+        "name":   "Letshouer",
+        "phones": [
+            {"name":"x Gizaudio Galileo",
+             "file":["Letshuoer-Galileo-Hadoe"],
+             "suffix":["(Hadoe)"]}
+        ]
+    },
+    {
+        "name":   "Moondrop",
+        "phones": [
+            {"name":"x crinacle Blessing 2: Dusk",
+             "file":["B2Dusk"],
+             "suffix":[""]},
+            {"name":"Chu",
+             "file":["Moondrop-Chu-S1", "Moondrop-Chu-S2"],
+             "suffix":["(Ted)", "(S2)(Ted)"]},
+            {"name":"Quarks",
+             "file":["Quarks"],
+             "suffix":["(Ted)"]},
+            {"name":"Aria Snow Edition",
+             "file":["Aria Snow"],
+             "suffix":[""]},
+            {"name":"Kato",
+             "file":["Kato"],
+             "suffix":[""]}
+        ]
+    },
+    {
+        "name":   "Nightjar",
+        "phones": [
+            {"name":"Singularity",
+             "file":["Nightjar-Singularity-Hadoe"],
+             "suffix":["(Hadoe)"]}
+        ]
+    }, 
+    {
+        "name":   "SeeAudio",
+        "phones": [
+            {"name":"x crinacle Yume Midnight",
+             "file":["SeeAudio-Yume-Midnight-Hadoe"],
+             "suffix":["(Hadoe)"]}
+        ]
+    },
+    {
+        "name":   "Symphonium",
+        "phones": [
+            {"name":"Meteor",
+             "file":["Meteor", "MeteorTed"],
+             "suffix":["", "(Ted)"]}
+        ]
+    },
+    {
+        "name":   "Tozo",
+        "phones": [
+            {"name":"A1",
+             "file":["Tozo_A1"],
+             "suffix":["(Ted)"]}
+        ]
+    },
+    {
+        "name":   "Tripowin",
+        "phones": [
+            {"name":"x HBB Olina SE",
+             "file":["Olina SE"],
+             "suffix":[""]}
+        ]
+    },
+
+    {
+        "name":   "Truthear",
+        "phones": [
+            {"name":"Hexa",
+             "file":["Hexa"],
+             "suffix":[""]}
+        ]
+    },
+    {
+        "name":   "XENNS",
+        "phones": [
+            {"name":"Mangrid Top",
+             "file":["Xenns-Mangrid-Top-Hadoe"],
+             "suffix":["(Hadoe)"]}
+        ]
+    }
+]

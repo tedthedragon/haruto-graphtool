@@ -1,0 +1,134 @@
+
+[
+    {
+        "name":   "AKG",
+        "phones": [
+            {"name":"7XX",
+             "file":["AKG_7XX"],
+             "suffix":["(Hadoe)"]}
+        ]
+    },
+    {
+        "name":   "Audeze",
+        "phones": [
+            {"name":"Maxwell",
+             "file":["Maxwell", "Audeze-Maxwell-Hadoe"],
+             "suffix":["", "(Hadoe)"]},
+            {"name":"LCD2.2 Pre-Fazor",
+             "file":["Audeze-LCD-2.2-Pre-Fazor-Ted"],
+             "suffix":["(Ted)"]}
+        ]
+    },
+    {
+        "name":   "Aurorus",
+        "phones": [
+            {"name":"Borealis",
+             "file":["Borealis"],
+             "suffix":[""]}
+        ]
+    },
+    {
+        "name":   "Beyerdynamic",
+        "phones": [
+            {"name":"DT770",
+             "file":["DT-770-Pro-32-ohm"],
+             "suffix":["(32Ω)(Ted)"]}
+        ]
+    },
+    {
+        "name":   "HarmonicDyne",
+        "phones": [
+            {"name":"Zeus",
+             "file":["Zeus"],
+             "suffix":[""]}
+        ]
+    },
+    {
+        "name":   "Hifiman",
+        "phones": [
+            {"name":"HE400se",
+             "file":["HiFiMan-HE400SE"],
+             "suffix":["(Ted)"]}
+        ]
+    },
+    {
+        "name":   "Koss",
+        "phones": [
+            {"name":"Porta Pro X",
+             "file":["KossxDropPortaProXTed"],
+             "suffix":["(Ted)"]},
+            {"name":"Sporta Pro",
+             "file":["Koss-Sporta-Pro-Ted"],
+             "suffix":["(Ted)"]},
+            {"name":"KSC75",
+             "file":["KSC75", "KSC7560ohmTed"],
+             "suffix":["", "(Yaxi pads)(Ted)"]}
+        ]
+    },
+    {
+        "name":   "Monoprice",
+        "phones": [
+            {"name":"Unknown On Ear",
+             "file":["Unknown-Monoprice-On-Ear-Ted"],
+             "suffix":["(Ted)"]}
+        ]
+    },
+    {
+        "name":   "Nectar",
+        "phones": [
+            {"name":"Ambrosia",
+             "file":["AmbrosiaB", "AmbrosiaD"],
+             "suffix":["(Brainwavz pads)", "(Dekoni Fenestrated Sheepskin pads)"]}
+        ]
+    },
+    {
+        "name":   "Phillips",
+        "phones": [
+            {"name":"Sonic Solis",
+             "file":["Phillips-Sonic-Solis-Ted"],
+             "suffix":["(Ted)"]}
+        ]
+    },
+    {
+        "name":   "Philphone",
+        "phones": [
+            {"name":"Philphone",
+             "file":["Philphone", "PhilphoneTed300ohm"],
+             "suffix":["(300Ω)(Capra Headband)", "(300Ω)(Ted)"]}
+        ]
+    },
+    {
+        "name":   "Sennheiser",
+        "phones": [
+            {"name":"HD280 Pro",
+             "file":["Sennheiser-HD-280-Pro"],
+             "suffix":["(Hadoe)"]},
+            {"name":"HD560S",
+             "file":["HD560S", "Sennheiser-HD-560s-New-Pads-Ted"],
+             "suffix":["(bad pads)", "(Ted)"]},
+            {"name":"HD58X Jubilee",
+             "file":["HD-58X-Worn-Ted"],
+             "suffix":["(Worn pads)(Ted)"]},
+            {"name":"HD580",
+             "file":["HD580BS"],
+             "suffix":["(Black Silk)"]},
+             {"name":"HD595",
+             "file":["Sennheiser-HD-595-Ted"],
+             "suffix":["(Ted)"]},
+            {"name":"HD600",
+             "file":["HD600SS"],
+             "suffix":["(Silver Screen)"]},
+            {"name":"HD6XX",
+             "file":["HD-6xx-Silver-Screen-Ted"],
+             "suffix":["(Silver Screen)(Worn pads)(Ted)"]}
+        ]
+    },
+    {
+        "name":   "Sony",
+        "phones": [
+            {"name":"MDR-XB500",
+             "file":["Sony_XB-500"],
+             "suffix":["(Hadoe)"]}
+        ]
+    }
+]
