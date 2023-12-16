@@ -1,9 +1,9 @@
 // Configuration options
-const init_phones = ["Generic Delta", "AudioSense AQ4 - Velvets"], // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
-      DIR = "data/",                                // Directory where graph files are stored
+const init_phones = ["Delta", "Supernova"],         // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+      DIR = "rag_data_iems/",                       // Directory where graph files are stored
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
       default_normalization = "Hz",                 // Sets default graph normalization mode. Accepts "dB" or "Hz"
-      default_norm_db = 35,                         // Sets default dB normalization point
+      default_norm_db = 60,                         // Sets default dB normalization point
       default_norm_hz = 630,                        // Sets default Hz normalization point (500Hz is recommended by IEC)
       max_channel_imbalance = 5,                    // Channel imbalance threshold to show ! in the channel selector
       alt_layout = true,                            // Toggle between classic and alt layouts
@@ -14,10 +14,10 @@ const init_phones = ["Generic Delta", "AudioSense AQ4 - Velvets"], // Optional. 
       alt_augment = true,                           // Display augment card in phone list, e.g. review sore, shop link
       site_url = '',                                // URL of your graph "homepage"
       share_url = true,                             // If true, enables shareable URLs
-      watermark_text = "ted the praimortis",        // Optional. Watermark appears behind graphs
-      watermark_image_url = "assets/images/mortis.png",// Optional. If image file is in same directory as config, can be just the filename
-      page_title = "Ted's IEM Squig Hoard",         // Optional. Appended to the page title if share URLs are enabled
-      page_description = "Buy Nightjar Singularity, fool.",
+      watermark_text = "Ragnarok",                  // Optional. Watermark appears behind graphs
+      watermark_image_url = "assets/images/Rags_Talk.png",// Optional. If image file is in same directory as config, can be just the filename
+      page_title = "Ragnarok Graphtool",            // Optional. Appended to the page title if share URLs are enabled
+      page_description = "View and compare frequency response graphs for headphones.",
       accessories = false,                          // If true, displays specified HTML at the bottom of the page. Configure further below
       externalLinksBar = false,                     // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
       expandable = false,                           // Enables button to expand iframe over the top of the parent page
@@ -32,24 +32,24 @@ const init_phones = ["Generic Delta", "AudioSense AQ4 - Velvets"], // Optional. 
       extraEnabled = true,                          // Enable extra features
       extraUploadEnabled = true,                    // Enable upload function
       extraEQEnabled = true,                        // Enable parametic eq function
-      extraEQBands = 3,                             // Default EQ bands available
+      extraEQBands = 10,                            // Default EQ bands available
       extraEQBandsMax = 20;                         // Max EQ bands available
 
 // Specify which targets to display
 const targets = [
-    { type:"",    files:["Generic Delta", "Generic JM-1"] },
+    { type:"",    files:["Delta", "JM-1", "IEF Comp"] },
 ];
 
 // Haruto's Addons
 const  preference_bounds = "assets/images/bounds.png", // Preference bounds image
        PHONE_BOOK = "ragnarok_phone_book_iems.json",// Path to phone book JSON file
-       default_DF_name = "Generic Delta",           // Default RAW DF name
+       default_DF_name = "Delta",                   // Default RAW DF name
        dfBaseline = true,                           // If true, DF is used as baseline when custom df tilt is on
        default_bass_shelf = 0,                      // Default Custom DF bass shelf value
        default_tilt = -1.0,                         // Default Custom DF tilt value
        default_ear = 0,                             // Default Custom DF ear gain value
        default_treble = 0,                          // Default Custom DF treble gain value
-       tiltableTargets = ["Generic Delta", "Generic JM-1"];// Targets that are allowed to be tilted
+       tiltableTargets = ["Delta", "JM-1"];// Targets that are allowed to be tilted
 
 
 // *************************************************************
@@ -113,11 +113,12 @@ function setLayout() {
         docHead.append(linkTag);
     }
 
+    // For my own hosted stuff - Style-Alt-Theme should be separate but nothing else. Makes shit easy. Unless I change this later. Probably not. - [Ted]
     if ( !alt_layout ) {
         applyStylesheet("assets/css/style.css");
     } else {
         applyStylesheet("assets/css/style-alt.css");
-        applyStylesheet("assets/css/style-alt-theme.css");
+        applyStylesheet("assets/css/rag_style-alt-theme.css");
     }
 }
 setLayout();

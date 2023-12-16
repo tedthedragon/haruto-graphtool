@@ -1,0 +1,59 @@
+/* Primary color theme */
+:root {
+    --accent-color: hsl(0, 95%, 61%);
+    --accent-color-contrast: hsl(0, 84%, 53%);
+
+    --background-color: hsl(0, 50%, 4%);
+    --background-color-contrast: hsl(0, 40%, 4%);
+    --background-color-contrast-more: hsl(231, 15%, 67%);
+    --background-color-graph: hsl(0, 40%, 2%);
+
+    --background-color-inputs: hsl(0, 40%, 2%);
+
+    --font-color-primary: hsl(0, 95%, 61%);
+    --font-color-secondary: hsl(0, 0%, 0%);
+    --font-color-inputs: hsl(0, 95%, 61%);
+
+    --font-primary: 'Open Sans', sans-serif;
+    --font-secondary: monospace;
+
+    --scrollbar-color: 125,175,0;
+    --scrollbar-accent: 255,255,255;
+
+    --header-color: hsl(0, 50%, 4%);
+    --header-links-color: hsl(0, 100%, 78%);
+    --header-menu-icon-color: hsl(0, 0%, 100%);
+    
+    --logo-filter: none;
+    --svg-filter: none;
+}
+
+/* This is called dark mode but it's actually a light mode cause fuck defaulting to light. - [Ted] */
+body.dark-mode {
+    --accent-color: hsl(223, 25%, 10%);
+    --accent-color-contrast: hsl(223, 12%, 42%);
+
+    --background-color: hsl(29, 73%, 93%);
+    --background-color-contrast: hsl(0, 0%, 90%);
+    --background-color-contrast-more: hsl(223, 12%, 58%);
+    --background-color-graph: hsl(29, 100%, 96%);
+    
+    --background-color-inputs: hsl(29, 100%, 97%);
+    
+    --font-color-primary: hsl(223, 25%, 10%);
+    --font-color-secondary: hsl(29, 100%, 100%);
+    --font-color-inputs: hsl(0, 0%, 0%);
+    
+    --font-primary: 'Open Sans', sans-serif;
+    --font-secondary: monospace;
+    
+    --scrollbar-color: 255,255,255;
+    --scrollbar-accent: 0,0,0;
+        
+    --header-color: hsl(223, 25%, 10%);
+    --header-links-color: hsl(0, 0%, 0%);
+    --header-menu-icon-color: hsl(0, 0%, 0%);
+    
+    --logo-filter: none;
+    --svg-filter: invert(0);
+}
