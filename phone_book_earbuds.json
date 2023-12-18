@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "name": "Venture Electronics",
+        "phones": [
+            {
+                "name": "Vido",
+                "file":["Vido Earbuds"],
+                "suffix":["(S1 - Hadoe)"],
+                "reviewScore": "N/A",
+                "price": "$5",
+                "shopLink": "N/A"
+            }
+        ]
+    }
+]

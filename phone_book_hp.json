@@ -54,9 +54,9 @@
         "name": "Koss",
         "phones": [
             {
-                "name":"KSC-75",
-                "file":["KSC-75 Headband Stock", "KSC-75 Clips Yaxi Pads"],
-                "suffix":["(S1 - Ted | Headband + Stock Pads)", "(S2 - Ted | Clips + Yaxi Pads)"],
+                "name": "KSC-75",
+                "file": ["KSC-75 Headband Stock", "Hadoe KSC75 Headband"],
+                "suffix": ["(S1 - Ted | PE Headband + Stock Pads)", "(S2 - Hadoe | PE Headband + Stock Pads)"],
                 "reviewScore": "8.0/10",
                 "price": "$25",
                 "shopLink": "https://koss.com/products/ksc75"
@@ -164,8 +164,8 @@
             },
             {
                 "name": "MDR-XB500",
-                "file": "Mich Sony MDR-XB500",
-                "suffix": ["(S1 - PajamaSLAM)"],
+                "file": ["Mich Sony MDR-XB500", "Sony MDR XB-500"],
+                "suffix": ["(S1 - PajamaSLAM)", "(S2 - Hadoe)"],
                 "reviewScore": "8/10",
                 "price": "N/A"
             }

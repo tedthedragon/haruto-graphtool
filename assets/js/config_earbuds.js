@@ -1,6 +1,6 @@
 // Configuration options
 const init_phones = ["Generic Delta", "AudioSense AQ4 - Velvets"], // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
-      DIR = "data/",                                // Directory where graph files are stored
+      DIR = "data_earbuds/",                                // Directory where graph files are stored
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
       default_normalization = "Hz",                 // Sets default graph normalization mode. Accepts "dB" or "Hz"
       default_norm_db = 35,                         // Sets default dB normalization point
@@ -37,7 +37,7 @@ const init_phones = ["Generic Delta", "AudioSense AQ4 - Velvets"], // Optional. 
 
 // Specify which targets to display
 const targets = [
-    { type:"",    files:["Generic Delta", "Generic JM-1", "KEMAR DF for KB-500x"] },
+    { type:"",    files:["Generic Delta", "Generic JM-1"] },
 ];
 
 // Haruto's Addons
@@ -49,7 +49,7 @@ const  preference_bounds = "assets/images/bounds.png", // Preference bounds imag
        default_tilt = -1.0,                         // Default Custom DF tilt value
        default_ear = 0,                             // Default Custom DF ear gain value
        default_treble = 0,                          // Default Custom DF treble gain value
-       tiltableTargets = ["Generic Delta", "Generic JM-1", "KEMAR DF for KB-500x"];// Targets that are allowed to be tilted
+       tiltableTargets = ["Generic Delta", "Generic JM-1"];// Targets that are allowed to be tilted
 
 
 // *************************************************************
