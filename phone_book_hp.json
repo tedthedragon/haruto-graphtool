@@ -12,7 +12,7 @@
             },
             {
                 "name": "HD-6XX",
-                "file": ["HD-6XX Worn Stock", "HD-6XX Hadoe"],
+                "file": ["HD-6XX Worn Stock", "Sennheiser HD6XX"],
                 "suffix":["(S1 - Ted)", "(S2 - Hadoe)"],
                 "reviewScore": "9.5/10",
                 "price": "$220",
@@ -64,6 +64,19 @@
         ]
     },
     {
+        "name": "Focal",
+        "phones": [
+            {
+                "name": "x Massdrop Elex",
+                "file": ["Focal Elex"],
+                "suffix":["(S1 - Kyle)"],
+                "reviewScore": "4.5/10",
+                "price": "$500",
+                "shopLink": "https://headphones.com/products/focal-elex-headphones"
+            }
+        ]
+    },
+    {
         "name": "Audio-Technica",
         "phones": [
             {
@@ -84,6 +97,13 @@
                 "suffix": ["(S1 - Ted | Stock Pads)"],
                 "reviewScore": "8/10",
                 "price": "$600, Variable"
+            },
+            {
+                "name": "Maxwell",
+                "file": ["Az Maxwell (WC Pads)"],
+                "suffix": ["(S1 - Hadoe | Wicked Cushions Pads)"],
+                "reviewScore": "6/10",
+                "price": "$350"
             }
         ]
     },

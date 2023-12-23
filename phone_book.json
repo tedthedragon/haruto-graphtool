@@ -57,6 +57,14 @@
                 "shopLink": "https://www.dunu-topsound.com/titan-s"
             },
             {
+                "name": "Falcon Ultra",
+                "file": ["Dunu Falcon Ultra (Blue)", "Dunu Falcon Ultra (Gold)"],
+                "suffix":["(S1 - Hadoe | Blue)", "(S1 - Hadoe | Gold)"],
+                "reviewScore": "N/A: Bad Unit",
+                "price": "$80",
+                "shopLink": "https://www.dunu-topsound.com/titan-s"
+            },
+            {
                 "name": "Zen Pro (Spiral Dots++)",
                 "file": "Dunu Zen Pro SD++",
                 "suffix":["(S1)"],
@@ -218,6 +226,92 @@
                 "reviewScore": "8.0/10",
                 "price": "$109.00",
                 "shopLink": "https://bloomaudio.com/products/ucotech-re-2"
+            }
+        ]
+    },
+    {
+        "name": "Intime",
+        "phones": [
+            {
+                "name": "Sora Light",
+                "file": ["Intime Sora Light"],
+                "suffix":["(S1 - Hadoe)"],
+                "reviewScore": "3.5/10",
+                "price": "$40",
+                "shopLink": "https://www.lpgear.com/product/SORALT2019GL.html"
+            }
+        ]
+    },
+    {
+        "name": "Kiwi Ears",
+        "phones": [
+            {
+                "name": "Cadenza",
+                "file": ["Kiwi Ears Cadenza"],
+                "suffix":["(S1 - Hadoe)"],
+                "reviewScore": "N/A",
+                "price": "$35",
+                "shopLink": "https://kiwiears.com/products/kiwi-ears-cadenza"
+            }
+        ]
+    },
+    {
+        "name": "Narmoo",
+        "phones": [
+            {
+                "name": "R1M",
+                "file": ["Narmoo R1M (Black)", "Narmoo R1M (Gray)", "Narmoo R1M (Silver)", "Narmoo R1M (No Plug)"],
+                "suffix":["(S1 - Hadoe | Black Plug)", "(S1 - Hadoe | Gray Plug)", "(S1 - Hadoe | Silver Plug)", "(S1 - Hadoe | No Plug)"],
+                "reviewScore": "N/A",
+                "price": "Discontinued.",
+                "shopLink": "N/A"
+            }
+        ]
+    },
+    {
+        "name": "OnePlus",
+        "phones": [
+            {
+                "name": "Nord Buds",
+                "file": ["Oneplus Nord Buds"],
+                "suffix":["(S1 - Hadoe)"],
+                "reviewScore": "N/A",
+                "price": "$30",
+                "shopLink": "https://www.oneplus.com/us/oneplus-nord-buds"
+            }
+        ]
+    },
+    {
+        "name": "QKZ",
+        "phones": [
+            {
+                "name": "x HBB",
+                "file": ["QKZ QKZ x HBB"],
+                "suffix":["(S1 - Hadoe)"],
+                "reviewScore": "N/A",
+                "price": "$20",
+                "shopLink": "https://www.amazon.com/Linsoul-QKZ-HBB-Titanium-Coated-Silver-Plated/dp/B0BDF1DW8S"
+            }
+        ]
+    },
+    {
+        "name": "Truthear",
+        "phones": [
+            {
+                "name": "Hola",
+                "file": ["Truthear Hola"],
+                "suffix":["(S1 - Hadoe)"],
+                "reviewScore": "7.5/10",
+                "price": "$20",
+                "shopLink": "Discontinued."
+            },
+            {
+                "name": "Nova",
+                "file": ["Truthear Nova"],
+                "suffix":["(S1 - Hadoe)"],
+                "reviewScore": "7.0/10",
+                "price": "$150",
+                "shopLink": "https://www.amazon.com/TRUTHEAR-NOVA-1DD-Ear-Headphone/dp/B0CLV8TP34/"
             }
         ]
     }
