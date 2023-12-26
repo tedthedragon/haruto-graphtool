@@ -55,5 +55,5 @@ body.dark-mode {
     --header-menu-icon-color: hsl(0, 0%, 0%);
     
     --logo-filter: none;
-    --svg-filter: invert(0);
+    --svg-filter: none;
 }
