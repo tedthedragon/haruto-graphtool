@@ -200,13 +200,6 @@
                 "suffix": ["(S1 - ish)"],
                 "reviewScore": "3.5/10",
                 "price": "N/A"
-            },
-            {
-                "name": "Faunus",
-                "file": ["Cap Faunus (KSCPads)", "Cap Faunus (PP)", "Cap Faunus (YaxiPads)"],
-                "suffix": ["(S1 - Hadoe | KSC-75 Pads)", "(S1 - Hadoe | Porta Pro Headband)", "S1 - Hadoe | Yaxi Pads)"],
-                "reviewScore": "3.5/10",
-                "price": "N/A"
             }
         ]
     }
