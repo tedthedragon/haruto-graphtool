@@ -295,6 +295,45 @@
         ]
     },
     {
+        "name": "KZ",
+        "phones": [
+            {
+                "name": "LingLong",
+                "file": ["KZ Ling Long"],
+                "suffix":["(S1 - Hadoe)"],
+                "reviewScore": "N/A",
+                "price": "$20",
+                "shopLink": "https://www.amazon.com/Linsoul-KZ-Ling-Long-Headphones/dp/B0BWNPP49D"
+            }
+        ]
+    },
+    {
+        "name": "Letshuoer",
+        "phones": [
+            {
+                "name": "Aoshida E20",
+                "file": ["Letshuoer Aoshida E20"],
+                "suffix":["(S1 - Hadoe)"],
+                "reviewScore": "N/A",
+                "price": "$50",
+                "shopLink": "https://www.amazon.com/AOSHIDA-E20-Beryllium-Detachable-Gold/dp/B0CLS3S48J/"
+            }
+        ]
+    },
+    {
+        "name": "Tanchjim",
+        "phones": [
+            {
+                "name": "One DSP",
+                "file": ["Tanchjim One DSP (Default)", "Tanchjim One DSP (Flat)", "TanchjimOne DSP (HadoeEQ)"],
+                "suffix":["(S1 - Hadoe | Default Preset)", "(S1 - Hadoe | Flat Preset)", "(S1 - Hadoe | Hadoe EQ)"],
+                "reviewScore": "N/A",
+                "price": "$28",
+                "shopLink": "https://www.amazon.com/Fanmusic-TANCHJIM-ONE-Earphone-Headphone/dp/B0CDPRJVSB/"
+            }
+        ]
+    },
+    {
         "name": "Truthear",
         "phones": [
             {

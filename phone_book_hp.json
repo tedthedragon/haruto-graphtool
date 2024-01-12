@@ -55,8 +55,8 @@
         "phones": [
             {
                 "name": "KSC-75",
-                "file": ["KSC-75 Headband Stock", "Koss KSC75 PE Headband"],
-                "suffix":["(S1 - Ted | PE Headband + Stock Pads)", "(S2 - Hadoe | PE Headband + Stock Pads)"],
+                "file": ["KSC-75 Headband Stock", "Koss KSC75 PE Headband", "Ks KSC75 (PE Headand)"],
+                "suffix":["(S1 - Ted | PE Headband + Stock Pads)", "(S2 - Hadoe | PE Headband + Stock Pads)", "(S2 - Hadoe | PE Headband + Yaxi Pads)"],
                 "reviewScore": "7.5/10",
                 "price": "$25",
                 "shopLink": "https://koss.com/products/ksc-75"
