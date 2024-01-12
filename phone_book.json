@@ -325,7 +325,7 @@
         "phones": [
             {
                 "name": "One DSP",
-                "file": ["Tanchjim One DSP (Default)", "Tanchjim One DSP (Flat)", "TanchjimOne DSP (HadoeEQ)"],
+                "file": ["Tanchjim One DSP (Default)", "Tanchjim One DSP (Flat)", "Tanchjim One DSP (HadoeEQ)"],
                 "suffix":["(S1 - Hadoe | Default Preset)", "(S1 - Hadoe | Flat Preset)", "(S1 - Hadoe | Hadoe EQ)"],
                 "reviewScore": "N/A",
                 "price": "$28",
