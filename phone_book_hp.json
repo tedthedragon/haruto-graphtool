@@ -200,6 +200,20 @@
                 "suffix": ["(S1 - ish)"],
                 "reviewScore": "3.5/10",
                 "price": "N/A"
+            },
+            {
+                "name": "Satyr-1",
+                "file": ["Satyr 1"],
+                "suffix": ["(S1 - Yaxi Velour Pads)"],
+                "reviewScore": "9.5/10",
+                "price": "N/A"
+            },
+            {
+                "name": "Faunus",
+                "file": ["Capra Audio Faunus (Yaxi Pads - PE Headband)", "Capra Audio Faunus (Yaxi Pads - PortaPro Headband)", "Capra Audio Faunus (Koss Pads - PE Headband)", "Capra Audio Faunus V1.1 (Yaxi Pads - PE Headbnd)"],
+                "suffix": ["(S1 - v1.0 | Yaxi Pads | PE Headband)", "(S1 - v1.0 | Yaxi Pads | Porta Pro Headband)", "(S1 - v1.0 | Koss Pads | PE Headband)" , "(S2 - v1.1 | Yaxi Pads | PE Headband)"],
+                "reviewScore": "8.5/10",
+                "price": "N/A"
             }
         ]
     }

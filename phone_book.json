@@ -34,6 +34,19 @@
         ]
     },
     {
+        "name": "Nightjar",
+        "phones": [
+            {
+                "name": "Singularity",
+                "file": "Nightjar Singularity (Divinus Velvets)",
+                "suffix":["(S1 - Hadoe)"],
+                "reviewScore": "10/10",
+                "price": "$1300",
+                "shopLink": "https://nightjaracoustics.com/pages/singularity"
+            }
+        ]
+    },
+    {
         "name": "7th Acoustics",
         "phones": [
             {
@@ -252,6 +265,19 @@
                 "reviewScore": "N/A",
                 "price": "$35",
                 "shopLink": "https://kiwiears.com/products/kiwi-ears-cadenza"
+            }
+        ]
+    },
+    {
+        "name": "Artti",
+        "phones": [
+            {
+                "name": "R1",
+                "file": ["Artti R1 (Stock Wide Tips)", "Artti R1 (SD++)"],
+                "suffix":["(S1 - Hadoe | Stock Wide Tips)", "(S1 - Hadoe | Spiral Dots++)"],
+                "reviewScore": "8.5/10",
+                "price": "$103",
+                "shopLink": "https://www.aliexpress.us/item/3256805981830821.html"
             }
         ]
     },
