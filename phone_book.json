@@ -4,7 +4,7 @@
         "phones": [
             {
                 "name": "Salnotes Dioko",
-                "file": "7hz Salnotes Dioko",
+                "file": ["7hz Salnotes Dioko"],
                 "suffix":["(S1 - Ragnarok)"],
                 "reviewScore": "2.5/10",
                 "price": "$100",
@@ -12,7 +12,7 @@
             },
             {
                 "name": "Salnotes Zero",
-                "file": "7hz Salnotes Zero",
+                "file": ["7hz Salnotes Zero"],
                 "suffix":["(S1)"],
                 "reviewScore": "2/10",
                 "price": "$20",
@@ -25,7 +25,7 @@
         "phones": [
             {
                 "name": "x Nightjar Meteor",
-                "file": "Symphonium x Nightjar Meteor",
+                "file": ["Symphonium x Nightjar Meteor"],
                 "suffix":["(S1)"],
                 "reviewScore": "8.5/10",
                 "price": "$600",
@@ -38,8 +38,8 @@
         "phones": [
             {
                 "name": "Singularity",
-                "file": "Nightjar Singularity (Divinus Velvets)",
-                "suffix":["(S1 - Hadoe)"],
+                "file": ["Nightjar Singularity (Divinus Velvet)"],
+                "suffix":["(S1 - Hadoe | Divinus Velvets)"],
                 "reviewScore": "10/10",
                 "price": "$1300",
                 "shopLink": "https://nightjaracoustics.com/pages/singularity"
@@ -50,9 +50,9 @@
         "name": "7th Acoustics",
         "phones": [
             {
-                "name": "Supernova (KB-500x)",
-                "file": "7th Acoustics Supernova KB-500x Rag",
-                "suffix":["(S1 - Ragnarok - KB-500x)"],
+                "name": "Supernova (KB-50xx)",
+                "file": ["7th Acoustics Supernova KB-50xx Rag"],
+                "suffix":["(S1 - Ragnarok - KB-50xx)"],
                 "reviewScore": "8.5/10",
                 "price": "$800"
             }
@@ -63,8 +63,8 @@
         "phones": [
             {
                 "name": "Titan S",
-                "file": "Dunu Titan S",
-                "suffix":["(S1)"],
+                "file": ["Dunu Titan S"],
+                "suffix":["(S1 - Ted | BAD UNIT)"],
                 "reviewScore": "N/A: Bad Unit",
                 "price": "$80",
                 "shopLink": "https://www.dunu-topsound.com/titan-s"
@@ -79,7 +79,7 @@
             },
             {
                 "name": "Zen Pro (Spiral Dots++)",
-                "file": "Dunu Zen Pro SD++",
+                "file": ["Dunu Zen Pro SD++"],
                 "suffix":["(S1)"],
                 "reviewScore": "2.5/10",
                 "price": "$900",
@@ -99,14 +99,14 @@
         "phones": [
             {
                 "name": "Complementary IEMs",
-                "file": "Delta Airlines Complementary",
+                "file": ["Delta Airlines Complementary"],
                 "suffix":["(S1)"],
                 "reviewScore": "Awful/10",
                 "price": "N/A"
             },
             {
                 "name": "Complementary 'Studio' IEMs",
-                "file": "Delta Airlines _Studio_ IEMs",
+                "file": ["Delta Airlines _Studio_ IEMs"],
                 "suffix":["(S1)"],
                 "reviewScore": "Awful/10",
                 "price": "N/A"
@@ -118,7 +118,7 @@
         "phones": [
             {
                 "name": "x Crinacle Blessing 2: Dusk",
-                "file": "Moondrop Blessing 2 Dusk",
+                "file": ["Moondrop Blessing 2 Dusk"],
                 "suffix":["(S1 - Ragnarok)"],
                 "reviewScore": "3/10",
                 "price": "$320",
@@ -126,7 +126,7 @@
             },
             {
                 "name": "Quarks",
-                "file": "Moondrop Quarks",
+                "file": ["Moondrop Quarks"],
                 "suffix":["(S1)"],
                 "reviewScore": "1.5/10",
                 "price": "$15",
@@ -147,63 +147,72 @@
         "phones": [
             {
                 "name": "Freya 2.0",
-                "file": "Kinera Freya 2.0 Show",
+                "file": ["Kinera Freya 2.0 Show"],
+                "suffix":["(S1 - Show Unit)"],
                 "reviewScore": "N/A: Conflict of Interest",
                 "price": "$269",
                 "shopLink": "https://www.kineraaudio.com/product/kinera-freya-2-0"
             },
             {
                 "name": "Hodur",
-                "file": "Kinera Hodur Show",
+                "file": ["Kinera Hodur Show"],
+                "suffix":["(S1 - Show Unit)"],
                 "reviewScore": "N/A: Conflict of Interest",
                 "price": "$299",
                 "shopLink": "https://www.kineraaudio.com/product/kinera-hodur"
             },
             {
                 "name": "Imperial Loki-Emerald",
-                "file": "Kinera Loki-Emerald Show",
+                "file": ["Kinera Loki-Emerald Show"],
+                "suffix":["(S1 - Show Unit)"],
                 "reviewScore": "N/A: Conflict of Interest",
                 "price": "$3099",
                 "shopLink": "https://www.kineraaudio.com/product/kinera-imperial-loki"
             },
             {
                 "name": "Imperial Nanna",
-                "file": "Kinera Nanna 2.0 Show",
+                "file": ["Kinera Nanna 2.0 Show"],
+                "suffix":["(S1 - Show Unit)"],
                 "reviewScore": "N/A: Conflict of Interest",
                 "price": "$949",
                 "shopLink": "https://www.kineraaudio.com/product/kinera-imperial-nanna"
             },
             {
                 "name": "Imperial Norn",
-                "file": "Kinera Norn Show",
+                "file": ["Kinera Norn Show"],
+                "suffix":["(S1 - Show Unit)"],
                 "reviewScore": "N/A: Conflict of Interest",
                 "price": "$509",
                 "shopLink": "https://www.kineraaudio.com/product/kinera-imperial-norn"
             },
             {
                 "name": "Imperial Odin",
-                "file": "Kinera Odin Show",
+                "file": ["Kinera Odin Show"],
+                "suffix":["(S1 - Show Unit)"],
                 "reviewScore": "N/A: Conflict of Interest",
                 "price": "$849",
                 "shopLink": "https://www.kineraaudio.com/product/kinera-imperial-odin"
             },
             {
                 "name": "Imperial Skuld",
-                "file": "Kinera Skuld Show",
+                "file": ["Kinera Skuld Show"],
+                "suffix":["(S1 - Show Unit)"],
                 "reviewScore": "N/A: Conflict of Interest",
                 "price": "$550",
                 "shopLink": "https://www.kineraaudio.com/product/kinera-imperial-skuld"
             },
             {
                 "name": "Imperial URD",
-                "file": "Kinera Urd Show",
+                "file": ["Kinera Urd Show"],
+                "suffix":["(S1 - Show Unit)"],
                 "reviewScore": "N/A: Conflict of Interest",
                 "price": "$650",
                 "shopLink": "https://www.kineraaudio.com/product/kinera-imperial-urd"
             },
             {
                 "name": "Celest Wyvern Pro",
-                "file": "Mich Celest Wyvern Pro",
+                "file": ["Mich Celest Wyvern Pro"],
+                "suffix":["(S1 - Show Unit)"],
                 "reviewScore": "N/A: Conflict of Interest",
                 "price": "$22",
                 "shopLink": "https://www.linsoul.com/products/kinera-celest-wyvern-pro"
@@ -215,15 +224,15 @@
         "phones": [
             {
                 "name": "DT200",
-                "file": "Poke DT200",
+                "file": ["Poke DT200"],
                 "suffix":["(S1 - Pokelij)"],
                 "reviewScore": "8.0/10",
                 "price": "Discontinued."
             },
             {
                 "name": "AQ4",
-                "file": "AudioSense AQ4 - Velvets",
-                "suffix":["(S1 - Hadoe)"],
+                "file": ["AudioSense AQ4 - Velvets"],
+                "suffix":["(S1 - Hadoe | Divinus Velvets)"],
                 "reviewScore": "8.5/10",
                 "price": "Discontinued."
             }
