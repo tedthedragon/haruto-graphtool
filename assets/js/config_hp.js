@@ -1,5 +1,5 @@
 // Configuration options
-const init_phones = ["KEMAR DF for KB-500x Target", "'Philphone' 300ohm Mod"], // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+const init_phones = ["KEMAR DF for KB-50xx Target", "'Philphone' 300ohm Mod"], // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data_hp/",                             // Directory where graph files are stored
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
       default_normalization = "Hz",                 // Sets default graph normalization mode. Accepts "dB" or "Hz"
@@ -43,13 +43,13 @@ const init_phones = ["KEMAR DF for KB-500x Target", "'Philphone' 300ohm Mod"], /
       default_tilt = -1.0,                          // Default Custom DF tilt value
       default_ear = 0,                              // Default Custom DF ear gain value
       default_treble = 0,                           // Default Custom DF treble gain value
-      default_DF_name = "KEMAR DF for KB-500x",     // Default RAW DF name
+      default_DF_name = "KEMAR DF for KB-50xx",     // Default RAW DF name
       dfBaseline = false,                           // If true, DF is used as baseline when custom df tilt is on
-      tiltableTargets = ["KEMAR DF for KB-500x"];   // Targets that are allowed to be tilted
+      tiltableTargets = ["KEMAR DF for KB-50xx"];   // Targets that are allowed to be tilted
 
 // Specify which targets to display
 const targets = [
-    { type:"",    files:["KEMAR DF for KB-500x"] },
+    { type:"",    files:["KEMAR DF for KB-50xx"] },
 ];
 
 
