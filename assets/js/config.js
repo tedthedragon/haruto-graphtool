@@ -41,7 +41,9 @@ const targets = [
 ];
 
 // Haruto's Addons
-const  preference_bounds = "assets/images/bounds.png", // Preference bounds image
+const  preference_bounds_name = "Preference Bounds RAW", // Preference bounds name
+       preference_bounds_dir = "assets/pref_bounds/",    // Preference bounds directory
+       preference_bounds_startup = false,           // If true, preference bounds are displayed on startup
        PHONE_BOOK = "phone_book.json",              // Path to phone book JSON file
        default_DF_name = "Generic JM-1",           // Default RAW DF name
        dfBaseline = true,                           // If true, DF is used as baseline when custom df tilt is on
@@ -73,11 +75,6 @@ function watermark(svg) {
         wm.append("text")
             .attrs({id:'wtext', x:0, y:80, "font-size":28, "text-anchor":"middle", "class":"graph-name"})
             .text(watermark_text);
-    }
-
-    if ( preference_bounds ) {
-        wm.append("image")
-        .attrs({id:'bounds',x:-385, y:-365, width:770, height:770, "xlink:href":preference_bounds, "display":"none"});
     }
 
     // Extra flair

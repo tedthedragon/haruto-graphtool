@@ -36,21 +36,27 @@ const init_phones = ["KEMAR DF for KB-50xx Target", "'Philphone' 300ohm Mod"], /
       extraEQBands = 3,                             // Default EQ bands available
       extraEQBandsMax = 20,                         // Max EQ bands available
       num_samples = 5,                              // Number of samples to average for smoothing
-      scale_smoothing = 0.2,                        // Smoothing factor for scale transitions
-      PHONE_BOOK = "phone_book_hp.json",            // Path to phone book JSON file
-      REWenabled = true,                            // Enable REW import function
-      default_bass_shelf = 0,                       // Default Custom DF bass shelf value
-      default_tilt = -1.0,                          // Default Custom DF tilt value
-      default_ear = 0,                              // Default Custom DF ear gain value
-      default_treble = 0,                           // Default Custom DF treble gain value
-      default_DF_name = "KEMAR DF for KB-50xx",     // Default RAW DF name
-      dfBaseline = false,                           // If true, DF is used as baseline when custom df tilt is on
-      tiltableTargets = ["KEMAR DF for KB-50xx"];   // Targets that are allowed to be tilted
+      scale_smoothing = 0.2                         // Smoothing factor for scale transitions
 
 // Specify which targets to display
 const targets = [
     { type:"",    files:["KEMAR DF for KB-50xx"] },
 ];
+
+// Haruto's Addons
+const  preference_bounds_name = "Preference Bounds RAW", // Preference bounds name
+       preference_bounds_dir = "assets/pref_bounds/",    // Preference bounds directory
+       preference_bounds_startup = false,           // If true, preference bounds are displayed on startup
+       PHONE_BOOK = "phone_book_hp.json",           // Phone book file path & name
+       default_DF_name = "KEMAR DF for KB-50xx",    // Default RAW DF name
+       dfBaseline = true,                           // If true, DF is used as baseline when custom df tilt is on
+       default_bass_shelf = 10,                     // Default Custom DF bass shelf value
+       default_tilt = -1.4,                         // Default Custom DF tilt value
+       default_ear = 0,                             // Default Custom DF ear gain value
+       default_treble = 2,                          // Default Custom DF treble gain value
+       tiltableTargets = ["KEMAR DF for KB-50xx"],  // Targets that are allowed to be tilted
+       compTargets = ["KEMAR DF for KB-50xx"],      // Targets that are allowed to be used for compensation
+       allowCreatorSupport = true;                  // Allow the creator to have a button top right to support them
 
 
 
@@ -75,11 +81,6 @@ function watermark(svg) {
         wm.append("text")
             .attrs({id:'wtext', x:0, y:80, "font-size":28, "text-anchor":"middle", "class":"graph-name"})
             .text(watermark_text);
-    }
-
-    if ( preference_bounds ) {
-        wm.append("image")
-        .attrs({id:'bounds',x:-385, y:-365, width:770, height:770, "xlink:href":preference_bounds, "display":"none"});
     }
 
     // Extra flair
