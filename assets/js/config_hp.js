@@ -1,22 +1,20 @@
 // Configuration options
-const init_phones = ["KEMAR DF for KB-50xx Target", "'Philphone' 300ohm Mod"], // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+const init_phones = ["KB50XX DF Target", "Phil Phone 300ohm"], // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data_hp/",                             // Directory where graph files are stored
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
       default_normalization = "Hz",                 // Sets default graph normalization mode. Accepts "dB" or "Hz"
-      default_norm_db = 35,                         // Sets default dB normalization point
-      default_norm_hz = 630,                        // Sets default Hz normalization point (500Hz is recommended by IEC)
+      default_norm_db = 60,                         // Sets default dB normalization point
+      default_norm_hz = 1000,                        // Sets default Hz normalization point (500Hz is recommended by IEC)
       max_channel_imbalance = 5,                    // Channel imbalance threshold to show ! in the channel selector
       alt_layout = true,                            // Toggle between classic and alt layouts
       alt_sticky_graph = true,                      // If active graphs overflows the viewport, does the graph scroll with the page or stick to the viewport?
       alt_animated = true,                          // Determines if new graphs are drawn with a 1-second animation, or appear instantly
       alt_header = true,                            // Display a configurable header at the top of the alt layout
       alt_tutorial = false,                         // Display a configurable frequency response guide below the graph
-      alt_augment = true,                           // Display augment card in phone list, e.g. review sore, shop link
-      site_url = '',                                // URL of your graph "homepage"
+      site_url = '/',                                // URL of your graph "homepage"
       share_url = true,                             // If true, enables shareable URLs
       watermark_text = "ted the praimortis",        // Optional. Watermark appears behind graphs
       watermark_image_url = "assets/images/mortis.png",// Optional. If image file is in same directory as config, can be just the filename
-      preference_bounds = "assets/images/bounds.png",  // Optional. If png file is present, display bounds image
       page_title = "Ted's Headphone Squig Hoard",   // Optional. Appended to the page title if share URLs are enabled
       page_description = "Buy 300ohm Philphone, fool.",
       accessories = false,                          // If true, displays specified HTML at the bottom of the page. Configure further below
@@ -33,14 +31,14 @@ const init_phones = ["KEMAR DF for KB-50xx Target", "'Philphone' 300ohm Mod"], /
       extraEnabled = true,                          // Enable extra features
       extraUploadEnabled = true,                    // Enable upload function
       extraEQEnabled = true,                        // Enable parametic eq function
-      extraEQBands = 3,                             // Default EQ bands available
+      extraEQBands = 5,                             // Default EQ bands available
       extraEQBandsMax = 20,                         // Max EQ bands available
       num_samples = 5,                              // Number of samples to average for smoothing
       scale_smoothing = 0.2                         // Smoothing factor for scale transitions
 
 // Specify which targets to display
 const targets = [
-    { type:"",    files:["KEMAR DF for KB-50xx"] },
+    { type:"Reference", files:["KB50XX DF"] }
 ];
 
 // Haruto's Addons
@@ -48,15 +46,15 @@ const  preference_bounds_name = "Preference Bounds RAW", // Preference bounds na
        preference_bounds_dir = "assets/pref_bounds/",    // Preference bounds directory
        preference_bounds_startup = false,           // If true, preference bounds are displayed on startup
        PHONE_BOOK = "phone_book_hp.json",           // Phone book file path & name
-       default_DF_name = "KEMAR DF for KB-50xx",    // Default RAW DF name
+       default_DF_name = "KB50XX DF",                // Default RAW DF name
        dfBaseline = true,                           // If true, DF is used as baseline when custom df tilt is on
-       default_bass_shelf = 10,                     // Default Custom DF bass shelf value
-       default_tilt = -1.4,                         // Default Custom DF tilt value
+       default_bass_shelf = 0,                      // Default Custom DF bass shelf value
+       default_tilt = -1.0,                         // Default Custom DF tilt value
        default_ear = 0,                             // Default Custom DF ear gain value
-       default_treble = 2,                          // Default Custom DF treble gain value
-       tiltableTargets = ["KEMAR DF for KB-50xx"],  // Targets that are allowed to be tilted
-       compTargets = ["KEMAR DF for KB-50xx"],      // Targets that are allowed to be used for compensation
-       allowCreatorSupport = true;                  // Allow the creator to have a button top right to support them
+       default_treble = 0,                          // Default Custom DF treble gain value
+       tiltableTargets = ["KB50XX DF"],              // Targets that are allowed to be tilted
+       compTargets = ["KB50XX DF"],                  // Targets that are allowed to be used for compensation
+       allowCreatorSupport = false;                  // Allow the creator to have a button top right to support them
 
 
 
@@ -223,9 +221,13 @@ let headerLogoText = "ted the praimortis",
     headerLogoImgUrl = "assets/images/mortis.svg",
     headerLinks = [
     {
-        name: "Home",
-        url: "https://tedthepraimortis.squig.link"
-    }
+        name: "IEMs",
+        url: "https://ted.sashaserver.us"
+    },
+    {
+        name: "Headphones",
+        url: "https://ted.sashaserver.us/headphones.html"
+    },
 ];
 
 // Source: https://www.teachmeaudio.com/mixing/techniques/audio-spectrum

@@ -1,3 +1,4 @@
+
 /* Primary color theme */
 :root {
     --accent-color: hsl(214, 95%, 61%);
@@ -19,12 +20,8 @@
 
     --scrollbar-color: 125,175,0;
     --scrollbar-accent: 255,255,255;
-
-    --header-color: hsl(210, 50%, 4%);
-    --header-links-color: hsl(233, 100%, 78%);
-    --header-menu-icon-color: hsl(0, 0%, 100%);
     
-    --logo-filter: none;
+    --logo-filter: invert(0);
     --svg-filter: none;
 }
 
@@ -47,13 +44,9 @@ body.dark-mode {
     --font-primary: 'Open Sans', sans-serif;
     --font-secondary: monospace;
     
-    --scrollbar-color: 255,255,255;
-    --scrollbar-accent: 0,0,0;
-        
-    --header-color: hsl(212, 30%, 8%);
-    --header-links-color: hsl(0, 0%, 100%);
-    --header-menu-icon-color: hsl(0, 0%, 100%);
+    --scrollbar-color: 0,0,0;
+    --scrollbar-accent: 255,255,255;
     
-    --logo-filter: none;
-    --svg-filter: none;
+    --logo-filter: invert(0);
+    --svg-filter: invert(0);
 }

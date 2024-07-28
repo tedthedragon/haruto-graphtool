@@ -1,5 +1,140 @@
 [
     {
+        "name": "Audeze",
+        "phones": [
+            {
+                "name": "LCD-2.2",
+                "file": ["Audeze LCD-2.2 Stock"],
+                "suffix": ["(S1 - Ted | Stock Pads)"],
+                "reviewScore": "8/10",
+                "price": "$600, Variable"
+            },
+            {
+                "name": "Maxwell",
+                "file": ["Az Maxwell (WC Pads)"],
+                "suffix": ["(S1 - Hadoe | Wicked Cushions Pads)"],
+                "reviewScore": "6/10",
+                "price": "$350"
+            }
+        ]
+    },
+    {
+        "name": "Audio-Technica",
+        "phones": [
+            {
+                "name": ["'Philphone' 300ohm Mod"],
+                "file": ["Phil Phone 300ohm", "Fuku Philphone Rag", "Cate 300ohm Philphone", "Poke 300ohm Philphone"],
+                "suffix":["(S1 - Ted | Stock)", "(S2 - Ragnarok | Capra Headband)", "(S3 - Cate | Capra Headband)", "(S4 - Pokelij | Capra Headband)"],
+                "reviewScore": "10/10",
+                "price": "$900"
+            }
+        ]
+    },
+    {
+        "name": "Aurorus",
+        "phones": [
+            {
+                "name": "Borealis",
+                "file": ["Aurorus Borealis Rag"],
+                "suffix": ["(S1 - Ragnarok)"],
+                "reviewScore": "9/10",
+                "price": "$900",
+                "shopLink": "https://www.aurorusaudio.com/Borealis%E2%84%A2-p133657519"
+            }
+        ]
+    },
+    {
+        "name": "Capra Audio",
+        "phones": [
+            {
+                "name": "CA-800v1",
+                "file": ["Kyle CA-800v1 No Tape"],
+                "suffix": ["(S1 - ish)"],
+                "reviewScore": "3.5/10",
+                "price": "N/A"
+            },
+            {
+                "name": "Satyr-1",
+                "file": ["Satyr 1"],
+                "suffix": ["(S1 - Yaxi Velour Pads)"],
+                "reviewScore": "9.5/10",
+                "price": "N/A"
+            },
+            {
+                "name": "Faunus",
+                "file": ["Capra Audio Faunus (Yaxi Pads - PE Headband)", "Capra Audio Faunus (Yaxi Pads - PortaPro Headband)", "Capra Audio Faunus (Koss Pads - PE Headband)", "Capra Audio Faunus V1.1 (Yaxi Pads - PE Headbnd)"],
+                "suffix": ["(S1 - v1.0 | Yaxi Pads | PE Headband)", "(S1 - v1.0 | Yaxi Pads | Porta Pro Headband)", "(S1 - v1.0 | Koss Pads | PE Headband)" , "(S2 - v1.1 | Yaxi Pads | PE Headband)"],
+                "reviewScore": "8.5/10",
+                "price": "N/A"
+            }
+        ]
+    },
+    {
+        "name": "Dan Clark Audio",
+        "phones": [
+            {
+                "name": "Aeon 2 Noire",
+                "file": ["Poke DCA Aeon 2 Noire"],
+                "suffix": ["(S1 - Pokelij)"],
+                "reviewScore": "0.5/10",
+                "price": "$899.99",
+                "shopLink": "https://danclarkaudio.com/aeon-2-noir.html"
+            }
+        ]
+    },
+    {
+        "name": "Focal",
+        "phones": [
+            {
+                "name": "x Massdrop Elex",
+                "file": ["Focal Elex"],
+                "suffix":["(S1 - Kyle)"],
+                "reviewScore": "4.5/10",
+                "price": "$500",
+                "shopLink": "https://headphones.com/products/focal-elex-headphones"
+            }
+        ]
+    },
+    {
+        "name": "HarmonicDyne",
+        "phones": [
+            {
+                "name": "Zeus",
+                "file": ["HarmonicDyne Zeus Rag"],
+                "suffix": ["(S1 - Ragnarok)"],
+                "reviewScore": "0.5/10",
+                "price": "$300",
+                "shopLink": "https://www.linsoul.com/products/harmonicdyne-zeus"
+            }
+        ]
+    },
+    {
+        "name": "Koss",
+        "phones": [
+            {
+                "name": "KSC-75",
+                "file": ["KSC-75 Headband Stock", "Koss KSC75 PE Headband", "Ks KSC75 (PE Headand)"],
+                "suffix":["(S1 - Ted | PE Headband + Stock Pads)", "(S2 - Hadoe | PE Headband + Stock Pads)", "(S2 - Hadoe | PE Headband + Yaxi Pads)"],
+                "reviewScore": "7.5/10",
+                "price": "$25",
+                "shopLink": "https://koss.com/products/ksc-75"
+            }
+        ]
+    },
+    {
+        "name": "Nectar",
+        "phones": [
+            {
+                "name": "Ambrosia",
+                "file": ["Nectar Ambrosia Rag"],
+                "suffix": ["(S1 - Ragnarok)"],
+                "reviewScore": "2.5/10",
+                "price": "$399",
+                "shopLink": "https://nectarsound.net/contact/"
+            }
+        ]
+    },
+    {
         "name": "Sennheiser",
         "phones": [
             {
@@ -51,128 +186,6 @@
         ]
     },
     {
-        "name": "Koss",
-        "phones": [
-            {
-                "name": "KSC-75",
-                "file": ["KSC-75 Headband Stock", "Koss KSC75 PE Headband", "Ks KSC75 (PE Headand)"],
-                "suffix":["(S1 - Ted | PE Headband + Stock Pads)", "(S2 - Hadoe | PE Headband + Stock Pads)", "(S2 - Hadoe | PE Headband + Yaxi Pads)"],
-                "reviewScore": "7.5/10",
-                "price": "$25",
-                "shopLink": "https://koss.com/products/ksc-75"
-            }
-        ]
-    },
-    {
-        "name": "Focal",
-        "phones": [
-            {
-                "name": "x Massdrop Elex",
-                "file": ["Focal Elex"],
-                "suffix":["(S1 - Kyle)"],
-                "reviewScore": "4.5/10",
-                "price": "$500",
-                "shopLink": "https://headphones.com/products/focal-elex-headphones"
-            }
-        ]
-    },
-    {
-        "name": "Audio-Technica",
-        "phones": [
-            {
-                "name": ["'Philphone' 300ohm Mod"],
-                "file": ["Phil Phone 300ohm", "Fuku Philphone Rag", "Cate 300ohm Philphone", "Poke 300ohm Philphone"],
-                "suffix":["(S1 - Ted | Stock)", "(S2 - Ragnarok | Capra Headband)", "(S3 - Cate | Capra Headband)", "(S4 - Pokelij | Capra Headband)"],
-                "reviewScore": "10/10",
-                "price": "$900"
-            }
-        ]
-    },
-    {
-        "name": "Audeze",
-        "phones": [
-            {
-                "name": "LCD-2.2",
-                "file": ["Audeze LCD-2.2 Stock"],
-                "suffix": ["(S1 - Ted | Stock Pads)"],
-                "reviewScore": "8/10",
-                "price": "$600, Variable"
-            },
-            {
-                "name": "Maxwell",
-                "file": ["Az Maxwell (WC Pads)"],
-                "suffix": ["(S1 - Hadoe | Wicked Cushions Pads)"],
-                "reviewScore": "6/10",
-                "price": "$350"
-            }
-        ]
-    },
-    {
-        "name": "Dan Clark Audio",
-        "phones": [
-            {
-                "name": "Aeon 2 Noire",
-                "file": ["Poke DCA Aeon 2 Noire"],
-                "suffix": ["(S1 - Pokelij)"],
-                "reviewScore": "0.5/10",
-                "price": "$899.99",
-                "shopLink": "https://danclarkaudio.com/aeon-2-noir.html"
-            }
-        ]
-    },
-    {
-        "name": "ZMF Headphones",
-        "phones": [
-            {
-                "name": "Caldera",
-                "file": ["Kyle ZMF Caldera"],
-                "suffix": ["(S1 - ish)"],
-                "reviewScore": "9.0/10",
-                "price": "$3499.99",
-                "shopLink": "https://shop.zmfheadphones.com/collections/stock-headphones/products/caldera"
-            }
-        ]
-    },
-    {
-        "name": "Aurorus",
-        "phones": [
-            {
-                "name": "Borealis",
-                "file": ["Aurorus Borealis Rag"],
-                "suffix": ["(S1 - Ragnarok)"],
-                "reviewScore": "9/10",
-                "price": "$900",
-                "shopLink": "https://www.aurorusaudio.com/Borealis%E2%84%A2-p133657519"
-            }
-        ]
-    },
-    {
-        "name": "HarmonicDyne",
-        "phones": [
-            {
-                "name": "Zeus",
-                "file": ["HarmonicDyne Zeus Rag"],
-                "suffix": ["(S1 - Ragnarok)"],
-                "reviewScore": "0.5/10",
-                "price": "$300",
-                "shopLink": "https://www.linsoul.com/products/harmonicdyne-zeus"
-            }
-        ]
-    },
-    {
-        "name": "Nectar",
-        "phones": [
-            {
-                "name": "Ambrosia",
-                "file": ["Nectar Ambrosia Rag"],
-                "suffix": ["(S1 - Ragnarok)"],
-                "reviewScore": "2.5/10",
-                "price": "$399",
-                "shopLink": "https://nectarsound.net/contact/"
-            }
-        ]
-    },
-    {
         "name": "Sony",
         "phones": [
             {
@@ -192,28 +205,15 @@
         ]
     },
     {
-        "name": "Capra Audio",
+        "name": "ZMF Headphones",
         "phones": [
             {
-                "name": "CA-800v1",
-                "file": ["Kyle CA-800v1 No Tape"],
+                "name": "Caldera",
+                "file": ["Kyle ZMF Caldera"],
                 "suffix": ["(S1 - ish)"],
-                "reviewScore": "3.5/10",
-                "price": "N/A"
-            },
-            {
-                "name": "Satyr-1",
-                "file": ["Satyr 1"],
-                "suffix": ["(S1 - Yaxi Velour Pads)"],
-                "reviewScore": "9.5/10",
-                "price": "N/A"
-            },
-            {
-                "name": "Faunus",
-                "file": ["Capra Audio Faunus (Yaxi Pads - PE Headband)", "Capra Audio Faunus (Yaxi Pads - PortaPro Headband)", "Capra Audio Faunus (Koss Pads - PE Headband)", "Capra Audio Faunus V1.1 (Yaxi Pads - PE Headbnd)"],
-                "suffix": ["(S1 - v1.0 | Yaxi Pads | PE Headband)", "(S1 - v1.0 | Yaxi Pads | Porta Pro Headband)", "(S1 - v1.0 | Koss Pads | PE Headband)" , "(S2 - v1.1 | Yaxi Pads | PE Headband)"],
-                "reviewScore": "8.5/10",
-                "price": "N/A"
+                "reviewScore": "9.0/10",
+                "price": "$3499.99",
+                "shopLink": "https://shop.zmfheadphones.com/collections/stock-headphones/products/caldera"
             }
         ]
     }

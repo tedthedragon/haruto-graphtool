@@ -37,7 +37,7 @@ doc.html(`
         <div class="yscaler">
           <span>Y-axis Scale:</span>
           <div>
-            <button id="yscalebtn" class="40db">40dB</button>
+            <button id="yscalebtn" class="30db">30dB</button>
           </div>
         </div>
 
@@ -328,7 +328,7 @@ let x = d3.scaleLog()
     .domain([20,20000])
     .range([pad.l,pad.l+W]);
 
-let yD = [40,80], // Decibels
+let yD = [45,75], // Decibels
     yR = [pad.t+H,pad.t+10];
 let y = d3.scaleLinear().domain(yD).range(yR);
 
@@ -561,13 +561,13 @@ doc.select("#yscalebtn").on("click", function() {
             this.classList.remove("20db");
             this.classList.add("30db");
             this.innerHTML = "30dB";
-            updateYScaling(101.33, 172);
+            updateYScaling(dB.H, defY);
             break;
         case "30db":
             this.classList.remove("30db");
             this.classList.add("40db");
             this.innerHTML = "40dB";
-            updateYScaling(dB.H, defY);
+            updateYScaling(75.95, 172);
             break;
         case "40db":
             this.classList.remove("40db");
@@ -588,8 +588,8 @@ doc.select("#yscalebtn").on("click", function() {
             updateYScaling(152, 172);
             break;
         default:
-            this.className = "40db";
-            this.innerHTML = "40dB";
+            this.className = "30db";
+            this.innerHTML = "30dB";
             updateYScaling(dB.H, defY);
             break;
     }
