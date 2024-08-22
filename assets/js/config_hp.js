@@ -2,7 +2,7 @@
 const init_phones = ["KB50XX DF Target", "Phil Phone 300ohm"], // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data_hp/",                             // Directory where graph files are stored
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
-      default_normalization = "Hz",                 // Sets default graph normalization mode. Accepts "dB" or "Hz"
+      default_normalization = "dB",                 // Sets default graph normalization mode. Accepts "dB" or "Hz"
       default_norm_db = 60,                         // Sets default dB normalization point
       default_norm_hz = 1000,                        // Sets default Hz normalization point (500Hz is recommended by IEC)
       max_channel_imbalance = 5,                    // Channel imbalance threshold to show ! in the channel selector
